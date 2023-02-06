@@ -8,4 +8,4 @@ npm run build
 
 echo "Deploying files"
 rsync -avP build/ -e "ssh -p 22" root@michaelbayo.uk:/var/www/michaelbayo.uk/
-echo "Complete"
+echo "Completed Deployment"
