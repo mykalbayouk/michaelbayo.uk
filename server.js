@@ -20,6 +20,7 @@ const contactEmail = nodemailer.createTransport({
   },
 });
 
+
 contactEmail.verify((error) => {
   if (error) {
     console.log(error);
@@ -34,7 +35,7 @@ router.post("/contact", (req, res) => {
   const message = req.body.message;
   const phone = req.body.phone;
   const mail = {
-    from: name,
+    from: email,
     to: "michaelbayouk@gmail.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
