@@ -50,6 +50,7 @@ p, a, li, button, ul {
     
   }
 
+
   a:link {
     text-decoration: none;
   }
@@ -87,6 +88,27 @@ p, a, li, button, ul {
       color: red;
   }
 
+/* social media icons */
+
+.social-media {
+  z-index: 9998;
+  position: fixed;
+  bottom: 450px;
+  right: 0;
+}
+
+.social-media .social-div {
+  display: block;
+  width: 70px;
+  height: 250px;
+  background-color: #2b1934;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  transition: 0.3s ease-in-out;
+  opacity: 75%;
+}
 
 /* Navbar */
 
