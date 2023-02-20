@@ -93,7 +93,7 @@ p, a, li, button, ul {
 .social-media {
   z-index: 9998;
   position: fixed;
-  bottom: 450px;
+  bottom: 33%;
   right: 0;
 }
 
