@@ -20,14 +20,10 @@ export const About = () => {
                         <h2></h2>   
                         <div className="about-text">
                         <p>
-                        Hello! My name is Michael Bayouk and I am a 20 year old student at the University of Georgia. I have been into computers my whole life and built my first Computer at the age of 9.
-                        I first started programming in 2018 when I was 15 years old. I started with Python and then moved on to Java. I have been programming ever since. 
-                        </p>
-                        <p> I am currently a Sophomore and I am majoring in Computer Science. I am also completeing a certificate in Data Science and am currently a candidate for the Artificial Intelligence Masters.
-                        I am currently looking for a summer internship in the field of Software Engineering. I am also looking for a full time position after I graduate in December 2024.
+                        As a member of the Honors College at the University of Georgia, I intend on using my passion for Computer Science to serve as a liaison between current disparities and future developments.
                         </p>
                         <p>
-                        Also, I am a fanatic when it comes to space. I have been interested since I was as long as I can remember whether it be about Hawking Radiation or the Big Bang, I am always trying to learn more.
+                         Outside of my career as a CS major, I also continue my passion for learning beyond the classroom by working on worthwhile passion projects including web scraping, API fulfillment to website infrastructure, and software development.
                         </p>
                         </div>
                     </div>
