@@ -38,7 +38,7 @@ export const Skills = () => {
                                 Skills
                             </h2>
                             <p>
-                                These are just a couple of the wide range of skills I have. I am currently learning more about React and Python in order to expand my skillset.
+                                These are a few of my specialties that I have the most experience working on. I am currently learning more about React and Python in order to expand my skillset.
                             </p>
                             <Carousel responsive={responsive} infinite={true} className = "skill-slider">
                                 <div className="item">
@@ -60,7 +60,11 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meterJava} alt="Image" />
                                     <h5>Hardware</h5>
-                                </div>                            
+                                </div>
+                                <div className="item">
+                                    <img src={meterWeb} alt="Image" />
+                                    <h5>Unix</h5>
+                                </div>                                                               
                             </Carousel>
                         </div>
                     </Col>
