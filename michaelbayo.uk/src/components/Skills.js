@@ -4,6 +4,8 @@ import "react-multi-carousel/lib/styles.css";
 import meterJava from "../assets/pictures/Icons/meterJava.png";
 import meterC from "../assets/pictures/Icons/MeterC.png";
 import meterWeb from "../assets/pictures/Icons/MeterWeb.png";
+import meterAPI from "../assets/pictures/Icons/meterAPI.png";
+import meterBack from "../assets/pictures/Icons/meterBack.png";
 import SkillsBackground from "../assets/pictures/skillsBackground.jpg";
 
 export const Skills = () => {
@@ -40,21 +42,25 @@ export const Skills = () => {
                             </p>
                             <Carousel responsive={responsive} infinite={true} className = "skill-slider">
                                 <div className="item">
-                                    <img src={meterJava} alt="Image" />
-                                    <h5>Java</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterWeb} alt="Image" />
-                                    <h5>C++</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meterC} alt="Image" />
-                                    <h5>Web</h5>
+                                    <img src={meterAPI} alt="Image" />
+                                    <h5>API Infrastructure</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meterWeb} alt="Image" />
                                     <h5>Mathematics</h5>
-                                </div>                               
+                                </div>
+                                <div className="item">
+                                    <img src={meterBack} alt="Image" />
+                                    <h5>Back End</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meterC} alt="Image" />
+                                    <h5>Web Design</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meterJava} alt="Image" />
+                                    <h5>Hardware</h5>
+                                </div>                            
                             </Carousel>
                         </div>
                     </Col>
