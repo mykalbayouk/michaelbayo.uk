@@ -7,7 +7,7 @@ import georgia from "../assets/pictures/georgia.png";
 import ugaHacks from "../assets/pictures/ugaHacks.png";
 import honor from "../assets/pictures/honorsCollege.jpg";
 import motorsports from "../assets/pictures/motorsports.jpg";
-import Tutoring from "../assets/pictures/tutoring.jpg";
+import SSRL from "../assets/pictures/SSRL.png";
 import buildingPC from "../assets/pictures/buildingPC.jpg";
 
 import 'animate.css';
@@ -54,13 +54,13 @@ export const Projects = () => {
     const work = [
         {
             title: "UGA Motorsports",
-            description: "Member of the UGA Motorsports Team",
+            description: "Helped to create a website for the team",
             imgUrl: motorsports,
         },
         {
-            title: "Math Tutor",
-            description: "Concepts of Linear Algebra and Multivariable Calculus",
-            imgUrl: Tutoring,
+            title: "SSRL",
+            description: "Developed Flight Software using CUDA",
+            imgUrl: SSRL,
         },
         {
             title: "Computer Building",
@@ -87,7 +87,7 @@ export const Projects = () => {
                                 <Nav.Link eventKey = "second">Academics</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey = "third">Hands On</Nav.Link>
+                                <Nav.Link eventKey = "third">Firsthand</Nav.Link>
                             </Nav.Item>
                         </Nav>
 
