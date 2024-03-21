@@ -2,13 +2,13 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap"
 import {ProjectCard} from "./ProjectCard";
 import gallaryApp from "../assets/pictures/gallaryApp.png";
 import bestRoute from "../assets/pictures/BestRouteIMG.png";
-import miniProjects from "../assets/pictures/MiniProjectsIMG.PNG";
+import comQuest from "../assets/pictures/comquest.png";
 import georgia from "../assets/pictures/georgia.png";
 import ugaHacks from "../assets/pictures/ugaHacks.png";
 import honor from "../assets/pictures/honorsCollege.jpg";
 import motorsports from "../assets/pictures/motorsports.jpg";
 import SSRL from "../assets/pictures/SSRL.png";
-import buildingPC from "../assets/pictures/buildingPC.jpg";
+import ula from "../assets/pictures/ula.jpeg";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,9 +27,9 @@ export const Projects = () => {
             imgUrl: bestRoute,
         },
         {
-            title: "Small Ideas",
-            description: "Programs utilizing C/C++",
-            imgUrl:  miniProjects,
+            title: "ComQuest",
+            description: "Android App using Java and SQLite",
+            imgUrl:  comQuest,
         },
     ];
 
@@ -40,8 +40,8 @@ export const Projects = () => {
             imgUrl: georgia,
         },
         {
-            title: "UGA Hacks 8",
-            description: "36 Hour Hackathon",
+            title: "University Hackathons",
+            description: "Participated in multiple timed coding comps.",
             imgUrl: ugaHacks,
         },
         {
@@ -53,6 +53,11 @@ export const Projects = () => {
 
     const work = [
         {
+            title: "United Launch Alliance",
+            description: "Summer Internship building Enterprise Apps",
+            imgUrl: ula,
+        },
+        {
             title: "UGA Motorsports",
             description: "Helped to create a website for the team",
             imgUrl: motorsports,
@@ -61,11 +66,6 @@ export const Projects = () => {
             title: "SSRL",
             description: "Developed Flight Software using CUDA",
             imgUrl: SSRL,
-        },
-        {
-            title: "Computer Building",
-            description: "Building and Maintaining Computers",
-            imgUrl: buildingPC,
         },
     ];
      return (

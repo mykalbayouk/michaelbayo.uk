@@ -38,7 +38,7 @@ export const Skills = () => {
                                 Skills
                             </h2>
                             <p>
-                                These are a few of my specialties that I have the most experience working on. I am currently learning more about React and Python in order to expand my skillset.
+                                These are a few of my specialties that I have the most experience working on. I am currently learning Flutter Development in order to enhance my mobile software skills.
                             </p>
                             <Carousel responsive={responsive} infinite={true} className = "skill-slider">
                                 <div className="item">
