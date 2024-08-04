@@ -1,7 +1,7 @@
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap"
 import {ProjectCard} from "./ProjectCard";
-import gallaryApp from "../assets/pictures/gallaryApp.png";
-import bestRoute from "../assets/pictures/BestRouteIMG.png";
+import pokeApp from "../assets/pictures/pokeApp.png";
+import dawgRider from "../assets/pictures/dawgRider.png";
 import comQuest from "../assets/pictures/comquest.png";
 import georgia from "../assets/pictures/georgia.png";
 import ugaHacks from "../assets/pictures/ugaHacks.png";
@@ -17,19 +17,22 @@ export const Projects = () => {
     
     const projects = [
         { 
-            title: "ItunesAPI GUI",
-            description: "JavaFX app",
-            imgUrl: gallaryApp,
+            title: "PokédexApp",
+            description: "Flutter App using PokeAPI",
+            imgUrl: pokeApp,
+            link: "https://github.com/mykalbayouk/PokedexApp?tab=readme-ov-file" ,
         },
         {
-            title: "BestRoute",
-            description: "JavaScript/React app",
-            imgUrl: bestRoute,
+            title: "DawgRider",
+            description: "Android Studio App using Firebase",
+            imgUrl: dawgRider,
+            link: "https://github.com/mykalbayouk/DawgRider",
         },
         {
             title: "ComQuest",
-            description: "Android App using Java and SQLite",
+            description: "Hackathon App using Java and SQLite",
             imgUrl:  comQuest,
+            link: "https://github.com/mykalbayouk/ComQuest",
         },
     ];
 
@@ -47,7 +50,7 @@ export const Projects = () => {
         {
             title: "UGA Honors College",
             description: "Apart of the Honors Program",
-            imgUrl:  honor,
+            imgUrl: honor,
         },
     ];
 
